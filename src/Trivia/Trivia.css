@@ -51,8 +51,7 @@ button:hover {
 .score {
   font-size: 20px;
   font-weight: 500;
-  text-align: right;
-  padding-top: px;
+  text-align: right;  
   padding-right: 20px;
 }
 .over h1 {
@@ -84,4 +83,84 @@ button:hover {
 .loading {
   margin-top: 100px;
   text-align: center;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .question {
+    padding-top: 25px;
+  }
+
+  h1 {
+    width: 90%;
+    font-size: 20px;
+  }
+  
+
+  button {
+    font-size: 20px;
+    padding: 7px;
+  }
+
+
+  .score {
+    font-size: 18px;
+    vertical-align: bottom;
+  }
+
+
+  .over h1 {
+    padding-top: 30px;
+    font-size: 25px;
+  }
+
+  .over p { 
+    font-size: 22px;
+  }
+
+  .over button {
+    width: 50%;
+    font-size: 25px;
+  }
+}
+
+
+@media only screen and (max-width: 450px) {
+  .question {
+    height: 160px;
+    padding-top: 15px;
+  }
+
+  h1 {
+    width: 90%;
+    font-size: 17px;
+  }
+  
+
+  button {
+    font-size: 15px;
+    padding: 7px;
+  }
+
+
+  .score {
+    font-size: 18px;
+    vertical-align: bottom;
+  }
+
+  
+  .over h1 {
+    padding-top: 30px;
+    font-size: 24px;
+  }
+
+  .over p { 
+    font-size: 20px;
+  }
+
+  .over button {
+    width: 50%;
+    font-size: 22px;
+  }
 }
